@@ -1,7 +1,9 @@
 <template>
     <div id="nav">
         <h1>Wybory: The Game</h1>
-        <router-link to="/">Home</router-link>
+        <router-link to="/">Game</router-link>
+        <i class="fas fa-grip-lines-vertical"></i>
+        <router-link to="/cards">Cards</router-link>
         <i class="fas fa-grip-lines-vertical"></i>
         <router-link to="/about">About</router-link>
     </div>
