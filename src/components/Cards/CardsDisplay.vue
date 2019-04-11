@@ -1,11 +1,13 @@
 <template>
     <div class="row">
-        <div v-for="card in cards" :key="card.code" class="col-md-3">
+        <div v-for="card in cards" :key="card.code" class="col-md-3" style="padding:0;">
             <div class="card">
                 <img :src="card.img" :alt="card.name" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">{{card.name}}</h5>
-                    <p>{{card.code}}</p>
+                    <br>
+                    <br>
+                    <p style="float:right;">{{card.code}}</p>
                 </div>
             </div>
         </div>
