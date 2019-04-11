@@ -4,11 +4,12 @@
     "private": true,
     "scripts": {
         "start": "node server.js",
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
+        "serve": "npm list --depth=0 -json >> ./public/dependencies.json && vue-cli-service serve",
+        "build": "vue-cli-service build && npm list --depth=0 -json >> ./dist/dependencies.json",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
+        "axios": "^0.18.0",
         "core-js": "^2.6.5",
         "express": "^4.16.4",
         "vue": "^2.6.6",

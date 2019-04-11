@@ -2,7 +2,9 @@
     <div>
         <div class="row">
             <h2 class="col-9">Karty do gry</h2>
-            <button class="btn col-2" @click="print">Print</button>
+            <div class="col-md-3">
+                <button class="btn" @click="print">Print</button>
+            </div>
         </div>
         <div id="to-print"></div>
     </div>
@@ -23,6 +25,6 @@ export default {
 .btn {
     background-color: $black-800;
     color: $black-50;
-    float: left;
+    float: right;
 }
 </style>
