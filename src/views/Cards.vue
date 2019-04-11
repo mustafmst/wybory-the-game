@@ -6,13 +6,20 @@
                 <button class="btn" @click="print">Print</button>
             </div>
         </div>
-        <div id="to-print"></div>
+        <div id="to-print">
+            <CardsDisplay/>
+        </div>
     </div>
 </template>
 
 <script>
+import CardsDisplay from "./../components/Cards/CardsDisplay";
+
 export default {
     name: "cards",
+    components: {
+        CardsDisplay
+    },
     methods: {
         print() {
             this.$htmlToPaper("to-print");

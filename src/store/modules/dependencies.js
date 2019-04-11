@@ -8,11 +8,10 @@ const getters = {
 };
 const actions = {
     async fetchDependencies({ commit }) {
-        console.log(window.location.origin);
         const response = await Axios.get(
             `${window.location.origin}/dependencies.json`
         );
-        console.log(response);
+        console.log(response.data);
         let newDependencies = [];
         let index = 0;
         for (let key in response.data.dependencies) {
@@ -23,7 +22,7 @@ const actions = {
             });
             index++;
         }
-
+        console.log(newDependencies);
         commit("setDependencies", newDependencies);
     }
 };
