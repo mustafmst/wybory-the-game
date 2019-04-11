@@ -22,8 +22,8 @@ export default {
     padding: 30px;
     padding-top: 10px;
     h1 {
-        background: linear-gradient(#fff, #fff, #fff, $red-400, $red-900);
-        -webkit-background-clip: text;
+        background: linear-gradient(to right, #fff, #fff, $red-700, $red-900);
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     i {
@@ -43,4 +43,3 @@ export default {
     }
 }
 </style>
-

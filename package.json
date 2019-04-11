@@ -3,13 +3,14 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "start": "npm run serve",
+        "start": "npm run build && node server.js",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
         "core-js": "^2.6.5",
+        "express": "^4.16.4",
         "vue": "^2.6.6",
         "vue-html-to-paper": "^1.0.3",
         "vue-router": "^3.0.1",

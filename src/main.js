@@ -9,10 +9,10 @@ Vue.config.productionTip = false;
 
 const options = {
     name: "_blank",
-    specs: ["fullscreen=yes", "titlebar=yes", "scrollbars=yes"],
+    specs: ["fullscreen=no", "titlebar=no", "scrollbars=yes"],
     styles: [
         "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
-        "https://unpkg.com/kidlat-css/css/kidlat.css"
+        "css/cards.css"
     ]
 };
 
