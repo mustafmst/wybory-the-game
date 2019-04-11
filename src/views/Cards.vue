@@ -3,7 +3,7 @@
         <div class="row">
             <h2 class="col-9">Karty do gry</h2>
             <div class="col-md-3">
-                <button class="btn" @click="print">Print</button>
+                <button class="btn" @click="print">Drukuj Karty</button>
             </div>
         </div>
         <div id="to-print">
