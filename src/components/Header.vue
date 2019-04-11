@@ -1,5 +1,5 @@
 <template>
-    <div id="nav">
+    <header id="nav">
         <h1>
             Wybory:
             <b class="accent">The Game</b>
@@ -8,7 +8,7 @@
         <router-link to="/game" class="play">Zagraj</router-link>
         <router-link to="/cards">Karty</router-link>
         <router-link to="/about">Info</router-link>
-    </div>
+    </header>
 </template>
 
 <script>

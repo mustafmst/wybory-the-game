@@ -1,9 +1,9 @@
 <template>
     <div id="app">
         <Header/>
-        <div class="container page">
+        <section class="container page">
             <router-view/>
-        </div>
+        </section>
     </div>
 </template>
 <script>

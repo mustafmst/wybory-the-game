@@ -1,6 +1,7 @@
 <template>
     <div class="about">
-        <h1>Info</h1>
+        <h1>Informacje o projekcie</h1>
+        <p>Gra karciana stworzona jako projekt na studia.</p>
         <DependenciesList/>
     </div>
 </template>
