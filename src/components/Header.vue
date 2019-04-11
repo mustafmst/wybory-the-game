@@ -4,7 +4,8 @@
             Wybory:
             <b class="accent">The Game</b>
         </h1>
-        <router-link to="/">Gra</router-link>
+        <router-link to="/">Strona Domowa</router-link>
+        <router-link to="/game" class="play">Zagraj</router-link>
         <router-link to="/cards">Karty</router-link>
         <router-link to="/about">Info</router-link>
     </div>
@@ -43,6 +44,14 @@ export default {
         }
         &:hover {
             background: $black-600;
+        }
+    }
+    a.play {
+        color: $red-50;
+        background-color: $red-300;
+        &.router-link-exact-active {
+            color: $black-800;
+            background-color: $red-900;
         }
     }
 }
