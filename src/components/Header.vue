@@ -1,11 +1,12 @@
 <template>
     <div id="nav">
-        <h1>Wybory: The Game</h1>
-        <router-link to="/">Game</router-link>
-        <i class="fas fa-grip-lines-vertical"></i>
-        <router-link to="/cards">Cards</router-link>
-        <i class="fas fa-grip-lines-vertical"></i>
-        <router-link to="/about">About</router-link>
+        <h1>
+            Wybory:
+            <b class="accent">The Game</b>
+        </h1>
+        <router-link to="/">Gra</router-link>
+        <router-link to="/cards">Karty</router-link>
+        <router-link to="/about">Info</router-link>
     </div>
 </template>
 
@@ -19,26 +20,29 @@ export default {
 @import "./../style/colors.scss";
 #nav {
     background: $black-800;
-    padding: 30px;
-    padding-top: 10px;
+    padding: 10px 30px;
     h1 {
-        background: linear-gradient(to right, #fff, #fff, $red-700, $red-900);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $black-50;
+        b.accent {
+            color: $red-900;
+        }
     }
     i {
         margin: 0px 15px;
         color: $black-50;
     }
     a {
+        padding: 5px 10px;
+        border-radius: 3px;
+        display: inline-block;
         font-weight: bold;
         color: $black-50;
         text-decoration: none;
         &.router-link-exact-active {
-            color: $red-400;
+            color: $red-900;
         }
         &:hover {
-            text-decoration: underline;
+            background: $black-600;
         }
     }
 }

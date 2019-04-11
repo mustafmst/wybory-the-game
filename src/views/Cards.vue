@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Cards</h1>
+        <h1>Karty</h1>
         <button @click="print">Print</button>
         <div id="to-print">
             <p class="para">
