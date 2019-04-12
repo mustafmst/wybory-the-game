@@ -1,45 +1,45 @@
 <template>
-    <div class="container">
-        <h3>Dodaj graczy przed rozpoczęciem rozgrywki.</h3>
-        <div class="row justify-content-center">
-            <form class="col-6" @submit="onSubmit">
-                <div class="form-group">
-                    <label for="party-name">Nazwa partii politycznej</label>
-                    <input
-                        type="text"
-                        name="party-name"
-                        id="party-name"
-                        class="form-control"
-                        v-model="name"
-                    >
-                </div>
-                <div class="form-group">
-                    <label for="party-color">Wybierz kolor partii</label>
-                    <Slider class="slider" v-model="color"/>
-                </div>
+    <div class="col-md-4 add-player">
+        <h3>Dodaj partie polityczne</h3>
+        <form @submit="onSubmit">
+            <div class="form-group">
+                <label for="party-name">Nazwa partii politycznej</label>
                 <input
-                    type="submit"
-                    value="Dodaj"
-                    class="btn"
-                    v-bind:style="{'background-color': color.hex + ' !important' }"
+                    type="text"
+                    name="party-name"
+                    id="party-name"
+                    class="form-control"
+                    v-model="name"
                 >
-            </form>
-        </div>
+            </div>
+            <div class="form-group">
+                <label for="party-color">Wybierz kolor partii</label>
+                <colorPicker class="slider" v-model="color"/>
+            </div>
+            <input
+                type="submit"
+                value="Dodaj"
+                class="btn"
+                v-bind:style="{'background-color': color.hex + ' !important' }"
+            >
+        </form>
     </div>
 </template>
 
 <script>
 import { mapActions } from "vuex";
-import { Slider } from "vue-color";
+import { Chrome } from "vue-color";
+
+const defaultColor = "#E21717";
 
 export default {
     name: "AddPlayerForm",
     components: {
-        Slider
+        colorPicker: Chrome
     },
     data() {
         return {
-            color: { hex: "#40B6BF" },
+            color: { hex: defaultColor },
             name: ""
         };
     },
@@ -51,12 +51,21 @@ export default {
                 name: this.name,
                 color: this.color.hex
             });
-            (this.color = { hex: "#40B6BF" }), (this.name = "");
+            (this.color = { hex: defaultColor }), (this.name = "");
         }
     }
 };
 </script>
+
 <style lang="scss" scoped>
+.add-player {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+form {
+    font-weight: bold;
+}
 h3 {
     text-align: center;
     margin-bottom: 40px;
