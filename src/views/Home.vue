@@ -1,6 +1,7 @@
 <template>
     <div id="home">
-        <h1>Strona Domowa Projektu</h1>
+        <p>Stań na czele partii politycznej walczącej o władzę!</p>
+        <p>Obiecuj cuda, wyciągaj brudy na przeciwników i pnij się w sondażach wyborczych.</p>
     </div>
 </template>
 
@@ -10,4 +11,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#home {
+    font-size: 2em;
+}
+</style>
