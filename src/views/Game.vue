@@ -1,11 +1,21 @@
 <template>
     <div class="game">
-        <h1>Gra</h1>
+        <PlayerManagment v-if="gameStarted"/>
     </div>
 </template>
 
 <script>
+import PlayerManagment from "./../components/PlayersManagment/PlayersManagment";
+
 export default {
-    name: "game"
+    name: "game",
+    components: {
+        PlayerManagment
+    },
+    data() {
+        return {
+            gameStarted: true
+        };
+    }
 };
 </script>
