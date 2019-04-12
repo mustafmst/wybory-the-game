@@ -4,8 +4,8 @@
         <ul>
             <li v-for="player in allPlayers" :key="player.name">
                 <h2>
-                    <div class="fas fa-angle-double-right dot" :style="{'color': player.color}"></div>
-                    <span>{{player.name}}</span>
+                    <div class="fas fa-angle-double-right dot" :style="{ color: player.color }"></div>
+                    <span>{{ player.name }}</span>
                 </h2>
             </li>
         </ul>
@@ -19,6 +19,11 @@ export default {
     name: "PlayersList",
     computed: {
         ...mapGetters(["allPlayers"])
+    },
+    watch: {
+        allPlayers(newAllPlayers, oldAllPlayers) {
+            console.log(newAllPlayers, oldAllPlayers);
+        }
     }
 };
 </script>

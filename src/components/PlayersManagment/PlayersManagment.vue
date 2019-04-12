@@ -1,7 +1,7 @@
 <template>
     <div class="row">
-        <AddPlayerForm/>
-        <PlayersList/>
+        <AddPlayerForm />
+        <PlayersList />
     </div>
 </template>
 

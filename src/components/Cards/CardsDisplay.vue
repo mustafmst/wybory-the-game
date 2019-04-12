@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <CardItem v-for="item in cards" :key="item.code" :card="item"/>
+        <CardItem v-for="item in cards" :key="item.code" :card="item" />
     </div>
 </template>
 

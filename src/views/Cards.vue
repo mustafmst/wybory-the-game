@@ -7,7 +7,7 @@
             </div>
         </div>
         <div id="to-print">
-            <CardsDisplay/>
+            <CardsDisplay />
         </div>
     </div>
 </template>

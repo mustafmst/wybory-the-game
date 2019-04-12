@@ -2,7 +2,7 @@
     <div class="about">
         <h1>Informacje o projekcie</h1>
         <p>Gra karciana stworzona jako projekt na studia.</p>
-        <DependenciesList/>
+        <DependenciesList />
     </div>
 </template>
 

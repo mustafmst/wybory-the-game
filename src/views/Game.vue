@@ -1,6 +1,6 @@
 <template>
     <div class="game">
-        <PlayerManagment v-if="gameStarted"/>
+        <PlayerManagment v-if="gameStarted" />
     </div>
 </template>
 

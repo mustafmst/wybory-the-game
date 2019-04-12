@@ -10,18 +10,18 @@
                     id="party-name"
                     class="form-control"
                     v-model="name"
-                >
+                />
             </div>
             <div class="form-group">
                 <label for="party-color">Wybierz kolor partii</label>
-                <colorPicker class="slider" v-model="color"/>
+                <colorPicker class="slider" v-model="color" />
             </div>
             <input
                 type="submit"
                 value="Dodaj"
                 class="btn"
-                v-bind:style="{'background-color': color.hex + ' !important' }"
-            >
+                v-bind:style="{ 'background-color': color.hex + ' !important' }"
+            />
         </form>
     </div>
 </template>
@@ -74,4 +74,3 @@ h3 {
     margin: auto;
 }
 </style>
-

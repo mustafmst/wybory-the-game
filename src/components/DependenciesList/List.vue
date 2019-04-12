@@ -10,8 +10,8 @@
             </thead>
             <tbody>
                 <tr v-for="dep in allDependencies" v-bind:key="dep.key">
-                    <td>{{dep.name}}</td>
-                    <td>{{dep.version}}</td>
+                    <td>{{ dep.name }}</td>
+                    <td>{{ dep.version }}</td>
                 </tr>
             </tbody>
         </table>
@@ -33,6 +33,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
-
+<style lang="scss" scoped></style>
