@@ -1,29 +1,52 @@
 <template>
     <div class="col-md-8">
         <h3>Aktualna scena polityczna</h3>
-        <ul>
-            <li v-for="player in allPlayers" :key="player.name">
-                <h2>
-                    <div class="fas fa-angle-double-right dot" :style="{ color: player.color }"></div>
-                    <span>{{ player.name }}</span>
-                </h2>
-            </li>
-        </ul>
+        <VueC3 :handler="handler"/>
     </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
+import Vue from "vue";
+import VueC3 from "vue-c3";
 
 export default {
     name: "PlayersList",
+    components: {
+        VueC3
+    },
     computed: {
         ...mapGetters(["allPlayers"])
     },
-    watch: {
-        allPlayers(newAllPlayers, oldAllPlayers) {
-            console.log(newAllPlayers, oldAllPlayers);
+    data() {
+        return {
+            handler: new Vue()
+        };
+    },
+    methods: {
+        createChart() {
+            this.handler.$emit("destroy");
+            const players = this.allPlayers;
+            const options = {
+                data: {
+                    columns: [...players.map(e => [e.name, 1])],
+                    type: "pie",
+                    color: function(color, d) {
+                        const data = players.filter(e => e.name === d)[0];
+                        return data ? data.color : "#fff";
+                    }
+                }
+            };
+            this.handler.$emit("init", options);
         }
+    },
+    watch: {
+        allPlayers() {
+            this.createChart();
+        }
+    },
+    mounted() {
+        this.createChart();
     }
 };
 </script>
