@@ -3,7 +3,8 @@ export default {
         players: []
     },
     getters: {
-        allPlayers: state => state.players
+        allPlayers: state => state.players,
+        anyPlayers: state => state.players.length > 0
     },
     actions: {
         async addPlayer({ commit }, newPlayer) {
