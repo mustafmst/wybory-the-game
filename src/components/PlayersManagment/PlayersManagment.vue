@@ -1,17 +1,11 @@
 <template>
     <div>
         <div class="row">
-            <AddPlayerForm />
-            <PlayersList />
+            <AddPlayerForm/>
+            <PlayersList/>
         </div>
         <div class="row">
-            <button
-                class="btn col-12"
-                :style="buttonStyle"
-                @click="onClickPlay"
-            >
-                Zagraj
-            </button>
+            <button class="btn col-12" :style="buttonStyle" @click="onClickPlay">Zagraj</button>
         </div>
     </div>
 </template>
@@ -43,6 +37,7 @@ export default {
     },
     methods: {
         onClickPlay() {
+            /* eslint-disable no-console */
             if (this.anyPlayers) console.log("Game is starting");
         }
     }

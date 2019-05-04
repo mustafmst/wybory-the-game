@@ -11,7 +11,6 @@ const actions = {
         const response = await Axios.get(
             `${window.location.origin}/dependencies.json`
         );
-        console.log(response.data);
         let newDependencies = [];
         let index = 0;
         for (let key in response.data.dependencies) {
@@ -22,7 +21,6 @@ const actions = {
             });
             index++;
         }
-        console.log(newDependencies);
         commit("setDependencies", newDependencies);
     }
 };

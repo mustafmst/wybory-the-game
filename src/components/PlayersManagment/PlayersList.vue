@@ -1,13 +1,9 @@
 <template>
     <div class="col-md-8">
         <h3>Aktualna scena polityczna</h3>
-        <VueC3 :handler="handler" />
+        <VueC3 :handler="handler"/>
         <div class="row list">
-            <PlayerListItem
-                v-for="player in allPlayers"
-                :key="player.name"
-                :player="player"
-            />
+            <PlayerListItem v-for="player in allPlayers" :key="player.name" :player="player"/>
         </div>
     </div>
 </template>
