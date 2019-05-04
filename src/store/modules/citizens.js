@@ -1,4 +1,5 @@
 import Citizen from "@/core/citizen";
+import POLITICAL_VIEWS from "@/core/politicalViews";
 
 export default {
     state: {
@@ -6,17 +7,18 @@ export default {
     },
     getters: {
         getEllectionPoll: state => {
+
             return state.citizens.map(e => e.voting).reduce((p, voting) => {
                 p[voting] = (p[voting] || 0) + 1;
                 return p;
-            });
+            }, {});
         }
     },
     actions: {
         createPopulation({commit}) {
             let newPopulation = [];
-            [...Array(1000).keys()].forEach(() => {
-                newPopulation.push(new Citizen(["l","p"]));
+            [...Array(10000).keys()].forEach(() => {
+                newPopulation.push(new Citizen(POLITICAL_VIEWS));
             });
             commit("setCitizens", newPopulation);
         },
