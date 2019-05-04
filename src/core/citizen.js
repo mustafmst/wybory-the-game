@@ -23,14 +23,12 @@ export default class Citizen {
     }
 
     /**
-     * @param {string[]} parties
+     * @param {string} name
      */
-    addParties(parties) {
-        parties.forEach((name) => {
-            this.parties.set(name, {
-                name,
-                score
-            })
+    addParty(name) {
+        this.parties.set(name, {
+            name,
+            score
         })
     }
 
@@ -39,7 +37,10 @@ export default class Citizen {
      * @param {Card} card
      */
     applyCard(party, card) {
-        this.parties[party].score += Object.entries(card.params)
+        if (!this.parties.has(party)) {
+            this.addParty(party)
+        }
+        this.parties.get(party).score += Object.entries(card.params)
             .reduce((accumulator, [view, value]) => (
                 accumulator + this.politicalViews[view] * value
             ), 0);
@@ -48,7 +49,7 @@ export default class Citizen {
     }
 
     __updateVoting() {
-        const sorted = [...this.parties.values()].sort((partyA, partyB) => partyA.score - partyB.score)
+        const sorted = [...this.parties.values()].sort((partyA, partyB) => partyA.score - partyB.score);
         console.debug("Voting update", sorted);
         this.voting = sorted[sorted.length - 1].name;
     }
