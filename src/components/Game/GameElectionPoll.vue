@@ -27,6 +27,7 @@ export default {
     },
     methods: {
         getColumns() {
+            console.log(Object.entries(this.getElectionPoll));
             return Object.entries(this.getElectionPoll);
         },
         createChart() {
@@ -35,11 +36,12 @@ export default {
                 data: {
                     columns: this.getColumns(),
                     type: "pie",
-                    color: function(color, data) {
-                        if (data === UNDECIDED_PARTY.name || data.id === UNDECIDED_PARTY.name) {
-                            return UNDECIDED_PARTY.color.hex;
-                        }
-                        return players.find((player) => player.name === data.id).color.hex;
+                    colors: {
+                        ...this.allPlayers.reduce((a, player) => {
+                            a[player.name] = player.color;
+                            return a;
+                        }, {}),
+                        [UNDECIDED_PARTY.name]: UNDECIDED_PARTY.color
                     }
                 }
             };
@@ -48,8 +50,9 @@ export default {
     },
     watch: {
         getElectionPoll() {
-            this.handler.$emit("dispatch", (chart) => {
-                chart.load({
+            this.handler.$emit("dispatch", chart => {
+                chart.unload();
+                chart.flow({
                     columns: this.getColumns()
                 });
             });

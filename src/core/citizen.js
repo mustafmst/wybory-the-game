@@ -28,7 +28,7 @@ export default class Citizen {
     addParty(name) {
         this.parties.set(name, {
             name,
-            score
+            score: 0
         })
     }
 

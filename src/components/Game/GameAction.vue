@@ -4,7 +4,13 @@
         <form @submit="onSubmit">
             <div class="form-group">
                 <label for="card-id">Podaj zagraną kartę</label>
-                <input type="text" name="card-id" id="card-id" class="form-control">
+                <input
+                    type="text"
+                    name="card-id"
+                    id="card-id"
+                    class="form-control"
+                    v-model="cardId"
+                >
                 <input
                     type="submit"
                     value="Zagraj kartę"
@@ -18,6 +24,7 @@
 
 <script>
 import { mapGetters, mapActions } from "vuex";
+import cardsData from "./../../core/cardsData.js";
 
 export default {
     name: "GameAction",
@@ -26,6 +33,7 @@ export default {
     },
     data() {
         return {
+            cardId: "",
             playerIndex: 0,
             playing: null,
             roundIndex: 0
@@ -35,7 +43,12 @@ export default {
         ...mapActions(["applyCard"]),
         onSubmit(e) {
             e.preventDefault();
-            this.applyCard(this.playing.name, "003");
+
+            this.applyCard({
+                party: this.playing.name,
+                card: cardsData.find(e => e.id === this.cardId)
+            });
+            this.cardId = "";
             this.changePlayer();
         },
         changePlayer() {
