@@ -14,7 +14,7 @@
                 <input
                     type="submit"
                     value="Zagraj kartę"
-                    class="btn"
+                    class="btn form-control"
                     v-bind:style="{ 'background-color': playing.color + ' !important' }"
                 >
             </div>
@@ -69,5 +69,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.btn {
+    margin-top: 4px;
+}
 </style>
 
