@@ -8,8 +8,12 @@ export default [
         "001",
         "card1",
         {
-            // TODO: select params
-            l: 1,
+            konserwatyzm: 1,
+            prawica: 2,
+            socjalizm: 3,
+            lewica: 4,
+            liberalizm: 5,
+            tumiwisizm: 6
         },
         img
     )
