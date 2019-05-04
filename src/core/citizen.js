@@ -42,7 +42,7 @@ export default class Citizen {
         }
         this.parties.get(party).score += Object.entries(card.params)
             .reduce((accumulator, [view, value]) => (
-                accumulator + this.politicalViews[view] * value
+                accumulator + (this.politicalViews[view] || 0) * value
             ), 0);
         this.__updateVoting();
 
