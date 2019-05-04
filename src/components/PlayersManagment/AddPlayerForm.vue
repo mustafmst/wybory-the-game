@@ -30,7 +30,11 @@
 import { mapActions } from "vuex";
 import { Chrome } from "vue-color";
 
-const defaultColor = "#E21717";
+
+// Generate random color https://stackoverflow.com/a/5365036/5185634
+const generateRandomColor = () => "#" + (Math.random()*0xFFFFFF<<0).toString(16);
+
+let defaultColor = generateRandomColor();
 
 export default {
     name: "AddPlayerForm",
@@ -51,6 +55,9 @@ export default {
                 name: this.name,
                 color: this.color.hex
             });
+            // Generate new color
+            defaultColor = generateRandomColor();
+            // Reset state
             (this.color = { hex: defaultColor }), (this.name = "");
         }
     }
