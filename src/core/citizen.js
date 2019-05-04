@@ -1,3 +1,7 @@
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 export default class Citizen {
     politicalViews = new Map();
     parties = new Map();
@@ -14,7 +18,7 @@ export default class Citizen {
      */
     __generatePoliticalView(politicalViews) {
         politicalViews.forEach((view) => {
-            this.politicalViews.set(view, Math.randomInt(-5, 5))
+            this.politicalViews.set(view, randomIntFromInterval(-5, 5))
         })
     }
 
