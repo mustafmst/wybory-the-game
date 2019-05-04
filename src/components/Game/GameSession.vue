@@ -1,7 +1,10 @@
 <template>
-    <div class="row">
-        <GameAction class="col-md-6"/>
-        <ElectionPoll class="col-md-6"/>
+    <div>
+        <h1>Runda: {{getRound}}</h1>
+        <div class="row">
+            <GameAction class="col-md-6"/>
+            <ElectionPoll class="col-md-6"/>
+        </div>
     </div>
 </template>
 
@@ -18,7 +21,7 @@ export default {
         GameAction
     },
     computed: {
-        ...mapGetters(["getElectionPoll"])
+        ...mapGetters(["getElectionPoll", "getRound"])
     }
 };
 </script>

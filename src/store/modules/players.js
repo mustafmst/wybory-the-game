@@ -4,7 +4,7 @@ export default {
     },
     getters: {
         allPlayers: state => state.players,
-        anyPlayers: state => state.players.length > 0
+        areMoreThanOnePlayers: state => state.players.length > 1
     },
     actions: {
         async addPlayer({ commit }, newPlayer) {

@@ -1,4 +1,4 @@
 export default {
-    name: "Undecided",
+    name: "Niezdecydowani",
     color: "#666666"
 };

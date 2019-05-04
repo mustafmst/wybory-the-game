@@ -22,9 +22,9 @@ export default {
         PlayersList
     },
     computed: {
-        ...mapGetters(["anyPlayers"]),
+        ...mapGetters(["areMoreThanOnePlayers"]),
         buttonStyle() {
-            return this.anyPlayers
+            return this.areMoreThanOnePlayers
                 ? {
                       "background-color": "#da0000",
                       cursor: "pointer"
@@ -39,7 +39,7 @@ export default {
         ...mapActions(["createPopulation", "startGame"]),
         onClickPlay() {
             /* eslint-disable no-console */
-            if (this.anyPlayers) {
+            if (this.areMoreThanOnePlayers) {
                 this.createPopulation();
                 this.startGame();
             }

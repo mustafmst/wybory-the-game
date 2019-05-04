@@ -40,7 +40,7 @@ export default {
         };
     },
     methods: {
-        ...mapActions(["applyCard"]),
+        ...mapActions(["applyCard", "incrementRound"]),
         onSubmit(e) {
             e.preventDefault();
 
@@ -55,6 +55,7 @@ export default {
             this.playerIndex++;
             if (this.playerIndex >= this.allPlayers.length) {
                 this.playerIndex = 0;
+                this.incrementRound();
                 this.roundIndex++;
             }
 
