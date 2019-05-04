@@ -19,13 +19,14 @@ export default {
     actions: {
         createPopulation({commit}) {
             let newPopulation = [];
-            [...Array(1000).keys()].forEach(() => {
+            [...Array(10000).keys()].forEach(() => {
                 newPopulation.push(new Citizen(POLITICAL_VIEWS));
             });
             commit("setCitizens", newPopulation);
         },
         applyCard({commit, state}, payload) {
             state.citizens.forEach(citizen => citizen.applyCard(payload.party, payload.card));
+            commit("setCitizens", state.citizens);
         }
     },
     mutations: {

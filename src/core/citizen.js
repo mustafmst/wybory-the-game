@@ -42,7 +42,7 @@ export default class Citizen {
         }
         this.parties.get(party).score += Object.entries(card.params)
             .reduce((accumulator, [view, value]) => (
-                accumulator + (this.politicalViews[view] || 0) * value
+                accumulator + (this.politicalViews.get(view) || 0) * value
             ), 0);
         this.__updateVoting();
 
@@ -50,7 +50,7 @@ export default class Citizen {
 
     __updateVoting() {
         const sorted = [...this.parties.values()].sort((partyA, partyB) => partyA.score - partyB.score);
-        console.debug("Voting update", sorted);
+        // console.debug("Voting update", sorted);
         this.voting = sorted[sorted.length - 1].name;
     }
 }
