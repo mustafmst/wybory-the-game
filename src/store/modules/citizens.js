@@ -1,5 +1,7 @@
 import Citizen from "@/core/citizen";
 import POLITICAL_VIEWS from "@/core/politicalViews";
+import UNDECIDED_PARTY from "@/core/undecidedParty";
+
 
 export default {
     state: {
@@ -7,11 +9,11 @@ export default {
     },
     getters: {
         getElectionPoll: state => {
-
-            return state.citizens.map(e => e.voting).reduce((p, voting) => {
-                p[voting] = (p[voting] || 0) + 1;
-                return p;
-            }, {});
+            return state.citizens.map(e => e.voting || UNDECIDED_PARTY.name)
+                .reduce((p, voting) => {
+                    p[voting] = (p[voting] || 0) + 1;
+                    return p;
+                }, {});
         }
     },
     actions: {
