@@ -1,5 +1,8 @@
 <template>
-    <div class="col-md-5 list-item" :style="{'background-color': player.color}">
+    <div
+        class="col-md-5 list-item"
+        :style="{ 'background-color': player.color }"
+    >
         <h3>{{ player.name }}</h3>
         <i class="fas fa-trash-alt" @click="onDelete"></i>
     </div>

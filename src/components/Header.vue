@@ -33,6 +33,7 @@ export default {
         color: $black-50;
     }
     a {
+        margin: 2px 3px;
         padding: 5px 10px;
         border-radius: 3px;
         display: inline-block;
@@ -52,6 +53,9 @@ export default {
         &.router-link-exact-active {
             color: $black-800;
             background-color: $red-900;
+        }
+        &:hover {
+            background: $red-800;
         }
     }
 }
