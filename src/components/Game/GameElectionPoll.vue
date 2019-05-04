@@ -27,11 +27,9 @@ export default {
     },
     methods: {
         getColumns() {
-            console.log(Object.entries(this.getElectionPoll));
             return Object.entries(this.getElectionPoll);
         },
         createChart() {
-            const players = this.allPlayers;
             const options = {
                 data: {
                     columns: this.getColumns(),
@@ -50,12 +48,8 @@ export default {
     },
     watch: {
         getElectionPoll() {
-            this.handler.$emit("dispatch", chart => {
-                chart.unload();
-                chart.flow({
-                    columns: this.getColumns()
-                });
-            });
+            this.handler.$emit("destroy");
+            this.createChart();
         }
     },
     mounted() {
