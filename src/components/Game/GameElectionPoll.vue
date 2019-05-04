@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Sondaż wyborczy</h1>
+        <h3>Sondaż wyborczy</h3>
         <VueC3 :handler="handler"/>
     </div>
 </template>

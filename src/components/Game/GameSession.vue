@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Runda: {{getRound}}</h1>
+        <h2>Runda: {{getRound}}</h2>
         <div class="row">
             <GameAction class="col-md-6"/>
             <ElectionPoll class="col-md-6"/>
