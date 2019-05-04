@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters, mapActions } from "vuex";
 import AddPlayerForm from "./AddPlayerForm";
 import PlayersList from "./PlayersList";
 
@@ -36,9 +36,10 @@ export default {
         }
     },
     methods: {
+        ...mapActions(["createPopulation"]),
         onClickPlay() {
             /* eslint-disable no-console */
-            if (this.anyPlayers) console.log("Game is starting");
+            if (this.anyPlayers) this.createPopulation();
         }
     }
 };
