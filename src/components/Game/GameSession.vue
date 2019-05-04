@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <GameAction/>
-        <ElectionPoll/>
+    <div class="row">
+        <GameAction class="col-md-6"/>
+        <ElectionPoll class="col-md-6"/>
     </div>
 </template>
 

@@ -2,6 +2,13 @@
     <div class="about">
         <h1>Informacje o projekcie</h1>
         <p>Gra karciana stworzona jako projekt na studia.</p>
+        <p>Autorami projektu są: 
+            <ul>
+                <li><a href="https://github.com/mustafmst">Paweł Mstowski</a></li>
+                <li><a href="https://github.com/darkowic">Dariusz Rzepka</a></li>
+                <li><a href="https://github.com/wisienka91">Maciej Wiśniewski</a></li>
+            </ul>
+        </p>
         <DependenciesList />
     </div>
 </template>
@@ -16,3 +23,9 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped>
+li {
+    list-style: none;
+}
+</style>
