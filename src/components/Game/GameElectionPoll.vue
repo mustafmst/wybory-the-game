@@ -1,10 +1,10 @@
 <template>
-    <h1>Ellection Poll</h1>
+    <h1>Election Poll</h1>
 </template>
 
 <script>
 export default {
-    name: "GameEllectionPoll"
+    name: "GameElectionPoll"
 };
 </script>
 

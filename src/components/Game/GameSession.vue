@@ -1,17 +1,22 @@
 <template>
     <div>
         <h1>GameSession</h1>
-        <EllectionPoll/>
+        <ElectionPoll/>
     </div>
 </template>
 
 <script>
-import EllectionPoll from "./GameEllectionPoll";
+import { mapGetters } from "vuex";
+
+import ElectionPoll from "./GameElectionPoll";
 
 export default {
     name: "GameSession",
     components: {
-        EllectionPoll
+        ElectionPoll
+    },
+    computed: {
+        ...mapGetters(["getElectionPoll"])
     }
 };
 </script>

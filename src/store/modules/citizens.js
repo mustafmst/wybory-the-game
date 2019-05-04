@@ -6,7 +6,7 @@ export default {
         citizens: []
     },
     getters: {
-        getEllectionPoll: state => {
+        getElectionPoll: state => {
 
             return state.citizens.map(e => e.voting).reduce((p, voting) => {
                 p[voting] = (p[voting] || 0) + 1;
