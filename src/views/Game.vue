@@ -1,16 +1,19 @@
 <template>
     <div class="game">
-        <PlayerManagment v-if="gameStarted" />
+        <PlayerManagment v-if="!gameStarted"/>
+        <GameSession v-if="gameStarted"/>
     </div>
 </template>
 
 <script>
 import PlayerManagment from "./../components/PlayersManagment/PlayersManagment";
+import GameSession from "./../components/Game/GameSession";
 
 export default {
     name: "game",
     components: {
-        PlayerManagment
+        PlayerManagment,
+        GameSession
     },
     data() {
         return {

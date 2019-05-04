@@ -17,7 +17,7 @@ export default {
     actions: {
         createPopulation({commit}) {
             let newPopulation = [];
-            [...Array(10000).keys()].forEach(() => {
+            [...Array(1000).keys()].forEach(() => {
                 newPopulation.push(new Citizen(POLITICAL_VIEWS));
             });
             commit("setCitizens", newPopulation);
