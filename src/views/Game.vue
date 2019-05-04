@@ -1,11 +1,12 @@
 <template>
     <div class="game">
-        <PlayerManagment v-if="!gameStarted"/>
-        <GameSession v-if="gameStarted"/>
+        <PlayerManagment v-if="!getSessionStatus"/>
+        <GameSession v-if="getSessionStatus"/>
     </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 import PlayerManagment from "./../components/PlayersManagment/PlayersManagment";
 import GameSession from "./../components/Game/GameSession";
 
@@ -15,10 +16,8 @@ export default {
         PlayerManagment,
         GameSession
     },
-    data() {
-        return {
-            gameStarted: true
-        };
+    computed: {
+        ...mapGetters(["getSessionStatus"])
     }
 };
 </script>

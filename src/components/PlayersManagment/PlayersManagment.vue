@@ -36,10 +36,13 @@ export default {
         }
     },
     methods: {
-        ...mapActions(["createPopulation"]),
+        ...mapActions(["createPopulation", "startGame"]),
         onClickPlay() {
             /* eslint-disable no-console */
-            if (this.anyPlayers) this.createPopulation();
+            if (this.anyPlayers) {
+                this.createPopulation();
+                this.startGame();
+            }
         }
     }
 };

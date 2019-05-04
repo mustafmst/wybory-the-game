@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>GameSession</h1>
+        <GameAction/>
         <ElectionPoll/>
     </div>
 </template>
@@ -9,11 +9,13 @@
 import { mapGetters } from "vuex";
 
 import ElectionPoll from "./GameElectionPoll";
+import GameAction from "./GameAction";
 
 export default {
     name: "GameSession",
     components: {
-        ElectionPoll
+        ElectionPoll,
+        GameAction
     },
     computed: {
         ...mapGetters(["getElectionPoll"])
