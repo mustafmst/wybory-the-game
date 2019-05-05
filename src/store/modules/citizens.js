@@ -27,6 +27,9 @@ export default {
         applyCard({commit, state}, payload) {
             state.citizens.forEach(citizen => citizen.applyCard(payload.party, payload.card));
             commit("setCitizens", state.citizens);
+        },
+        clearPopulation({commit}) {
+            commit("setCitizens", []);
         }
     },
     mutations: {

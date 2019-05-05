@@ -7,17 +7,21 @@ export default {
         areMoreThanOnePlayers: state => state.players.length > 1
     },
     actions: {
-        async addPlayer({ commit }, newPlayer) {
+        addPlayer({ commit }, newPlayer) {
             commit("addPlayer", newPlayer);
         },
-        async deletePlayer({ commit }, name) {
+        deletePlayer({ commit }, name) {
             commit("removePlayer", name);
+        },
+        clearPlayers({commit}) {
+            commit("removeAllPlayers");
         }
     },
     mutations: {
         addPlayer: (state, newPlayer) =>
             (state.players = [...state.players, newPlayer]),
         removePlayer: (state, name) =>
-            (state.players = [...state.players.filter(e => e.name !== name)])
+            (state.players = [...state.players.filter(e => e.name !== name)]),
+        removeAllPlayers: (state) => state.players = []
     }
 };
