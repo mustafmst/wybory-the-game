@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="game-action">
         <h3>Kolej partii: {{playing.name}}</h3>
         <form @submit="onSubmit">
             <div class="form-group">
@@ -69,6 +69,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./../../style/colors.scss";
+
+.game-action {
+    border-right: solid 1px $black-100;
+}
+
 .btn {
     margin-top: 4px;
 }

@@ -42,5 +42,6 @@ export default {
 
 .btn {
     background: $black-300;
+    margin-top: 8px;
 }
 </style>

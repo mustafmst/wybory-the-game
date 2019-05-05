@@ -10,18 +10,18 @@
                     id="party-name"
                     class="form-control"
                     v-model="name"
-                />
+                >
             </div>
             <div class="form-group">
                 <label for="party-color">Wybierz kolor partii</label>
-                <colorPicker class="slider" v-model="color" />
+                <colorPicker class="slider" v-model="color"/>
             </div>
             <input
                 type="submit"
                 value="Dodaj"
                 class="btn"
                 v-bind:style="{ 'background-color': color.hex + ' !important' }"
-            />
+            >
         </form>
     </div>
 </template>
@@ -31,7 +31,6 @@ import { mapActions } from "vuex";
 import { Chrome } from "vue-color";
 
 import { generateRandomColor } from "@/utils";
-
 
 let defaultColor = generateRandomColor();
 
@@ -64,9 +63,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./../../style/colors.scss";
+
 .add-player {
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-right: solid 1px $black-100;
     padding: 20px;
 }
 form {
