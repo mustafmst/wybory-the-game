@@ -20,6 +20,11 @@ export default {
     components: {
         CardsDisplay
     },
+    data() {
+        return {
+            output: null
+        };
+    },
     methods: {
         print() {
             this.$htmlToPaper("to-print");
