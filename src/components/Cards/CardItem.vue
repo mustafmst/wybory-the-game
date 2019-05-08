@@ -37,8 +37,12 @@ export default {
             ],
             datasets: [{
                 data: [
-                    this.card.params[KONSERWATYZM], this.card.params[PRAWICA], this.card.params[SOCJALIZM],
-                    this.card.params[LEWICA], this.card.params[LIBERALIZM], this.card.params[TUMIWISIZM]
+                    this.card.params[KONSERWATYZM], 
+                    this.card.params[PRAWICA], 
+                    this.card.params[SOCJALIZM],
+                    this.card.params[LEWICA], 
+                    this.card.params[LIBERALIZM], 
+                    this.card.params[TUMIWISIZM]
                 ],
                 backgroundColor: "rgba(54, 162, 235, 0.5)",
                 borderColor: "rgb(54, 162, 235)",
