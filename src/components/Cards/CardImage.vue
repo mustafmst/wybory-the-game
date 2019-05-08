@@ -1,7 +1,6 @@
 <template>
-    <div class="canvas_container">
-        <img :src="canvasToImage()" alt="chartImage" title="chartImage" class="canvas_mirror" />
-        <canvas id="cardchart" class="canvas_canvas" ref="cardChart" width="90" height="90" title="Card data" ></canvas>
+    <div class="canvas-container">
+        <canvas id="cardchart" class="card-canvas" ref="cardChart" width=80 height=80 title="Card data" ></canvas>
     </div>
 </template>
 
@@ -18,17 +17,8 @@ export default {
     },
     data: function() {
         return {
-            chart: null,
-            chartImg: "data:image/png,"
+            chart: null
         };
-    },
-    watch: {
-        chartData: function() {
-            if (this.chart !== null) {
-                this.chart.update();
-                this.chartImg = this.canvasToImage();
-            }
-        }
     },
     methods: {
         drawChart() {
@@ -49,14 +39,6 @@ export default {
                 }
             };
             this.chart = new Chart(ctx, options);
-        },
-        canvasToImage() {
-            if (this.chart) {
-                const ctx = this.$refs.cardChart;
-                return ctx.toDataURL("image/png");
-            } else {
-                return "";
-            }
         }
     },
     mounted: function() {
@@ -64,3 +46,16 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped>
+$canvas-size: 200px;
+.card-canvas {
+    height: $canvas-size !important;
+    width: $canvas-size !important;
+    margin: auto;
+}
+
+@media print {
+
+}
+</style>
