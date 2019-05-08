@@ -9,7 +9,6 @@
 
 <script>
 import { mapGetters } from "vuex";
-import Vue from "vue";
 
 import PlayerListItem from "./PlayerListItem";
 

@@ -1,22 +1,22 @@
 <template>
-  <div>
-    <div class="row">
-      <CardItem v-for="item in row" :key="item.code" :card="item"/>
+    <div>
+        <div class="row">
+            <CardItem v-for="item in row" :key="item.code" :card="item"/>
+        </div>
+        <div class="separator-1 row" v-if="rowIndex%3 === 2"></div>
+        <div class="separator-2 row" v-if="rowIndex > 3 && rowIndex%3 === 2"></div>
     </div>
-    <div class="separator-1 row" v-if="rowIndex%3 === 2"></div>
-    <div class="separator-2 row" v-if="rowIndex > 3 && rowIndex%3 === 2"></div>
-  </div>
 </template>
 
 <script>
 import CardItem from "./CardItem";
 
 export default {
-  name: "CardsRow",
-  props: ["row", "rowIndex"],
-  components: {
-    CardItem
-  }
+    name: "CardsRow",
+    props: ["row", "rowIndex"],
+    components: {
+        CardItem
+    }
 };
 </script>
 

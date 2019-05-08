@@ -14,102 +14,1220 @@ const img = "https://ocdn.eu/pulscms-transforms/1/ieqktkqTURBXy9jNTJlZTU3MzExY2Q
 export default [
     new Card(
         "001",
-        "card001",
-        {
-            [KONSERWATYZM]: 7,
-            [PRAWICA]: 7,
-            [SOCJALIZM]: 7,
-            [LEWICA]: 4,
-            [LIBERALIZM]: 7,
-            [TUMIWISIZM]: 1
-        },
-        img
-    ),
-    new Card(
-        "002",
-        "card002",
-        {
-            [KONSERWATYZM]: 6,
-            [PRAWICA]: 1,
-            [SOCJALIZM]: 8,
-            [LEWICA]: 8,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 3
-        },
-        img
-    ),
-    new Card(
-        "003",
-        "card003",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 5,
             [PRAWICA]: 3,
             [SOCJALIZM]: 2,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 4,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 10,
             [TUMIWISIZM]: 5
         },
         img
     ),
     new Card(
-        "004",
-        "card004",
+        "002",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 0,
-            [PRAWICA]: 3,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 7,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 8
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 5
         },
         img
     ),
     new Card(
-        "005",
-        "card005",
+        "003",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 9,
+            [KONSERWATYZM]: 6,
             [PRAWICA]: 0,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 5,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 6,
             [LIBERALIZM]: 2,
-            [TUMIWISIZM]: 9
+            [TUMIWISIZM]: 1
         },
         img
     ),
     new Card(
-        "006",
-        "card006",
+        "004",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 1,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 4,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 8,
             [LEWICA]: 10,
-            [LIBERALIZM]: 1,
+            [LIBERALIZM]: 5,
             [TUMIWISIZM]: 10
         },
         img
     ),
     new Card(
-        "007",
-        "card007",
+        "005",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 2,
+            [KONSERWATYZM]: 1,
             [PRAWICA]: 10,
-            [SOCJALIZM]: 4,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "006",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 9,
             [LEWICA]: 2,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "007",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "008",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "009",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "010",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "011",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 9,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 5,
             [LIBERALIZM]: 2,
             [TUMIWISIZM]: 2
         },
         img
     ),
     new Card(
-        "008",
-        "card008",
+        "012",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "013",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "014",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "015",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "016",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "017",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "018",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "019",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "020",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 6,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "021",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "022",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "023",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 6,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "024",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "025",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "026",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 4,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "027",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
             [PRAWICA]: 6,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "028",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "029",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "030",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "031",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "032",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 1,
             [SOCJALIZM]: 0,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "033",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "034",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "035",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 9,
+            [PRAWICA]: 6,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "036",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "037",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "038",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 0,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "039",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 0,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "040",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "041",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "042",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "043",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "044",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "045",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "046",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "047",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 3,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "048",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 3,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "049",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "050",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "051",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "052",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 6,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "053",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "054",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 3,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "055",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "056",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "057",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "058",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "059",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "060",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 9,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "061",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "062",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "063",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "064",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "065",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 7,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "066",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 3,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "067",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "068",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 3,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "069",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 4,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "070",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "071",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "072",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "073",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 3,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "074",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 9,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "075",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "076",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "077",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "078",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 3,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "079",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "080",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "081",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "082",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 4,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "083",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "084",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 10,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 3,
+            [LEWICA]: 6,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 10
+        },
+        img
+    ),
+    new Card(
+        "085",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 9
+        },
+        img
+    ),
+    new Card(
+        "086",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 2,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 9,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "087",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "088",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 6,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 2,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "089",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "090",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 5,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "091",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "092",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 7,
+            [SOCJALIZM]: 0,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "093",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 6,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "094",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 8,
             [LEWICA]: 6,
             [LIBERALIZM]: 5,
             [TUMIWISIZM]: 1
@@ -117,181 +1235,51 @@ export default [
         img
     ),
     new Card(
-        "009",
-        "card009",
+        "095",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 10,
-            [PRAWICA]: 9,
-            [SOCJALIZM]: 3,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 0
-        },
-        img
-    ),
-    new Card(
-        "010",
-        "card010",
-        {
-            [KONSERWATYZM]: 8,
-            [PRAWICA]: 9,
-            [SOCJALIZM]: 1,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 8
-        },
-        img
-    ),
-    new Card(
-        "011",
-        "card011",
-        {
-            [KONSERWATYZM]: 10,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 3,
-            [LEWICA]: 8,
-            [LIBERALIZM]: 0,
-            [TUMIWISIZM]: 0
-        },
-        img
-    ),
-    new Card(
-        "012",
-        "card012",
-        {
-            [KONSERWATYZM]: 8,
+            [KONSERWATYZM]: 6,
             [PRAWICA]: 7,
-            [SOCJALIZM]: 3,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 7,
-            [TUMIWISIZM]: 5
-        },
-        img
-    ),
-    new Card(
-        "013",
-        "card013",
-        {
-            [KONSERWATYZM]: 0,
-            [PRAWICA]: 8,
-            [SOCJALIZM]: 6,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 6,
-            [TUMIWISIZM]: 7
-        },
-        img
-    ),
-    new Card(
-        "014",
-        "card014",
-        {
-            [KONSERWATYZM]: 1,
-            [PRAWICA]: 8,
-            [SOCJALIZM]: 2,
-            [LEWICA]: 5,
+            [SOCJALIZM]: 10,
+            [LEWICA]: 1,
             [LIBERALIZM]: 1,
             [TUMIWISIZM]: 3
         },
         img
     ),
     new Card(
-        "015",
-        "card015",
+        "096",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 0,
-            [LEWICA]: 10,
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 0,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 5,
             [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 5
+            [TUMIWISIZM]: 0
         },
         img
     ),
     new Card(
-        "016",
-        "card016",
+        "097",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 0,
-            [PRAWICA]: 6,
-            [SOCJALIZM]: 1,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 1
-        },
-        img
-    ),
-    new Card(
-        "017",
-        "card017",
-        {
-            [KONSERWATYZM]: 4,
-            [PRAWICA]: 4,
-            [SOCJALIZM]: 0,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 8
-        },
-        img
-    ),
-    new Card(
-        "018",
-        "card018",
-        {
-            [KONSERWATYZM]: 0,
-            [PRAWICA]: 8,
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 9,
             [SOCJALIZM]: 5,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 9
-        },
-        img
-    ),
-    new Card(
-        "019",
-        "card019",
-        {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 3,
-            [SOCJALIZM]: 1,
-            [LEWICA]: 7,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 10
-        },
-        img
-    ),
-    new Card(
-        "020",
-        "card020",
-        {
-            [KONSERWATYZM]: 9,
-            [PRAWICA]: 6,
-            [SOCJALIZM]: 4,
-            [LEWICA]: 7,
+            [LEWICA]: 8,
             [LIBERALIZM]: 9,
-            [TUMIWISIZM]: 10
+            [TUMIWISIZM]: 3
         },
         img
     ),
     new Card(
-        "021",
-        "card021",
+        "098",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 9,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 10,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 4
-        },
-        img
-    ),
-    new Card(
-        "022",
-        "card022",
-        {
-            [KONSERWATYZM]: 0,
-            [PRAWICA]: 7,
-            [SOCJALIZM]: 9,
+            [KONSERWATYZM]: 7,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 4,
             [LEWICA]: 9,
             [LIBERALIZM]: 0,
             [TUMIWISIZM]: 9
@@ -299,365 +1287,287 @@ export default [
         img
     ),
     new Card(
-        "023",
-        "card023",
+        "099",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 6,
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 9,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 6,
+            [TUMIWISIZM]: 4
+        },
+        img
+    ),
+    new Card(
+        "100",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 2,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "101",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "102",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 10,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 2
+        },
+        img
+    ),
+    new Card(
+        "103",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 1,
             [PRAWICA]: 9,
-            [SOCJALIZM]: 10,
-            [LEWICA]: 1,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 3,
+            [LIBERALIZM]: 4,
+            [TUMIWISIZM]: 5
+        },
+        img
+    ),
+    new Card(
+        "104",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 1,
+            [LEWICA]: 9,
             [LIBERALIZM]: 10,
             [TUMIWISIZM]: 7
         },
         img
     ),
     new Card(
-        "024",
-        "card024",
+        "105",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 4,
-            [PRAWICA]: 2,
-            [SOCJALIZM]: 8,
-            [LEWICA]: 8,
-            [LIBERALIZM]: 2,
-            [TUMIWISIZM]: 9
-        },
-        img
-    ),
-    new Card(
-        "025",
-        "card025",
-        {
-            [KONSERWATYZM]: 5,
-            [PRAWICA]: 0,
-            [SOCJALIZM]: 4,
-            [LEWICA]: 0,
-            [LIBERALIZM]: 8,
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 1,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 0,
             [TUMIWISIZM]: 10
         },
         img
     ),
     new Card(
-        "026",
-        "card026",
+        "106",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 10,
-            [PRAWICA]: 8,
-            [SOCJALIZM]: 8,
-            [LEWICA]: 0,
-            [LIBERALIZM]: 4,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "027",
-        "card027",
-        {
-            [KONSERWATYZM]: 0,
-            [PRAWICA]: 4,
-            [SOCJALIZM]: 6,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 8,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "028",
-        "card028",
-        {
-            [KONSERWATYZM]: 6,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 6,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 10,
-            [TUMIWISIZM]: 5
-        },
-        img
-    ),
-    new Card(
-        "029",
-        "card029",
-        {
-            [KONSERWATYZM]: 7,
-            [PRAWICA]: 1,
+            [PRAWICA]: 9,
             [SOCJALIZM]: 3,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 6,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 0
+        },
+        img
+    ),
+    new Card(
+        "107",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 5,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 5,
+            [LIBERALIZM]: 0,
             [TUMIWISIZM]: 6
         },
         img
     ),
     new Card(
-        "030",
-        "card030",
+        "108",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 9,
-            [PRAWICA]: 5,
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 6,
             [SOCJALIZM]: 4,
-            [LEWICA]: 9,
+            [LEWICA]: 2,
             [LIBERALIZM]: 6,
-            [TUMIWISIZM]: 3
+            [TUMIWISIZM]: 0
         },
         img
     ),
     new Card(
-        "031",
-        "card031",
+        "109",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 5,
+            [KONSERWATYZM]: 0,
+            [PRAWICA]: 1,
             [SOCJALIZM]: 9,
-            [LEWICA]: 2,
-            [LIBERALIZM]: 3,
+            [LEWICA]: 9,
+            [LIBERALIZM]: 2,
             [TUMIWISIZM]: 1
         },
         img
     ),
     new Card(
-        "032",
-        "card032",
-        {
-            [KONSERWATYZM]: 5,
-            [PRAWICA]: 8,
-            [SOCJALIZM]: 3,
-            [LEWICA]: 2,
-            [LIBERALIZM]: 1,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "033",
-        "card033",
-        {
-            [KONSERWATYZM]: 2,
-            [PRAWICA]: 7,
-            [SOCJALIZM]: 4,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 6,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "034",
-        "card034",
-        {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 4,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 1,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 4
-        },
-        img
-    ),
-    new Card(
-        "035",
-        "card035",
-        {
-            [KONSERWATYZM]: 9,
-            [PRAWICA]: 2,
-            [SOCJALIZM]: 3,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 0,
-            [TUMIWISIZM]: 9
-        },
-        img
-    ),
-    new Card(
-        "036",
-        "card036",
+        "110",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 4,
-            [PRAWICA]: 6,
-            [SOCJALIZM]: 3,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 4,
+            [LIBERALIZM]: 7,
+            [TUMIWISIZM]: 1
+        },
+        img
+    ),
+    new Card(
+        "111",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 2,
             [LEWICA]: 1,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 3
+        },
+        img
+    ),
+    new Card(
+        "112",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 5,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 10,
+            [TUMIWISIZM]: 8
+        },
+        img
+    ),
+    new Card(
+        "113",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 6,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 2,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "114",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 3,
+            [PRAWICA]: 8,
+            [SOCJALIZM]: 8,
+            [LEWICA]: 8,
+            [LIBERALIZM]: 0,
+            [TUMIWISIZM]: 6
+        },
+        img
+    ),
+    new Card(
+        "115",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 0,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 4,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 1,
+            [TUMIWISIZM]: 7
+        },
+        img
+    ),
+    new Card(
+        "116",
+        "Tytuł karty",
+        {
+            [KONSERWATYZM]: 0,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 5,
+            [LEWICA]: 4,
             [LIBERALIZM]: 7,
             [TUMIWISIZM]: 5
         },
         img
     ),
     new Card(
-        "037",
-        "card037",
+        "117",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 5,
+            [KONSERWATYZM]: 10,
             [PRAWICA]: 6,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 6,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "038",
-        "card038",
-        {
-            [KONSERWATYZM]: 4,
-            [PRAWICA]: 9,
-            [SOCJALIZM]: 1,
-            [LEWICA]: 5,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 0
-        },
-        img
-    ),
-    new Card(
-        "039",
-        "card039",
-        {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 0,
-            [SOCJALIZM]: 2,
-            [LEWICA]: 3,
-            [LIBERALIZM]: 1,
-            [TUMIWISIZM]: 2
-        },
-        img
-    ),
-    new Card(
-        "040",
-        "card040",
-        {
-            [KONSERWATYZM]: 1,
-            [PRAWICA]: 2,
-            [SOCJALIZM]: 9,
+            [SOCJALIZM]: 4,
             [LEWICA]: 2,
-            [LIBERALIZM]: 0,
+            [LIBERALIZM]: 4,
             [TUMIWISIZM]: 1
         },
         img
     ),
     new Card(
-        "041",
-        "card041",
+        "118",
+        "Tytuł karty",
         {
             [KONSERWATYZM]: 2,
-            [PRAWICA]: 7,
-            [SOCJALIZM]: 7,
-            [LEWICA]: 10,
-            [LIBERALIZM]: 5,
-            [TUMIWISIZM]: 4
-        },
-        img
-    ),
-    new Card(
-        "042",
-        "card042",
-        {
-            [KONSERWATYZM]: 7,
-            [PRAWICA]: 4,
-            [SOCJALIZM]: 10,
+            [PRAWICA]: 9,
+            [SOCJALIZM]: 0,
             [LEWICA]: 9,
             [LIBERALIZM]: 4,
-            [TUMIWISIZM]: 3
-        },
-        img
-    ),
-    new Card(
-        "043",
-        "card043",
-        {
-            [KONSERWATYZM]: 8,
-            [PRAWICA]: 1,
-            [SOCJALIZM]: 9,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 0,
-            [TUMIWISIZM]: 8
-        },
-        img
-    ),
-    new Card(
-        "044",
-        "card044",
-        {
-            [KONSERWATYZM]: 6,
-            [PRAWICA]: 5,
-            [SOCJALIZM]: 10,
-            [LEWICA]: 3,
-            [LIBERALIZM]: 9,
-            [TUMIWISIZM]: 10
-        },
-        img
-    ),
-    new Card(
-        "045",
-        "card045",
-        {
-            [KONSERWATYZM]: 7,
-            [PRAWICA]: 5,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 2,
-            [LIBERALIZM]: 3,
-            [TUMIWISIZM]: 3
-        },
-        img
-    ),
-    new Card(
-        "046",
-        "card046",
-        {
-            [KONSERWATYZM]: 8,
-            [PRAWICA]: 10,
-            [SOCJALIZM]: 8,
-            [LEWICA]: 4,
-            [LIBERALIZM]: 6,
-            [TUMIWISIZM]: 4
-        },
-        img
-    ),
-    new Card(
-        "047",
-        "card047",
-        {
-            [KONSERWATYZM]: 3,
-            [PRAWICA]: 7,
-            [SOCJALIZM]: 8,
-            [LEWICA]: 4,
-            [LIBERALIZM]: 4,
-            [TUMIWISIZM]: 3
-        },
-        img
-    ),
-    new Card(
-        "048",
-        "card048",
-        {
-            [KONSERWATYZM]: 6,
-            [PRAWICA]: 6,
-            [SOCJALIZM]: 7,
-            [LEWICA]: 9,
-            [LIBERALIZM]: 1,
             [TUMIWISIZM]: 5
         },
         img
     ),
     new Card(
-        "049",
-        "card049",
+        "119",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 5,
-            [PRAWICA]: 1,
-            [SOCJALIZM]: 5,
-            [LEWICA]: 8,
-            [LIBERALIZM]: 3,
-            [TUMIWISIZM]: 1
+            [KONSERWATYZM]: 1,
+            [PRAWICA]: 3,
+            [SOCJALIZM]: 2,
+            [LEWICA]: 1,
+            [LIBERALIZM]: 8,
+            [TUMIWISIZM]: 0
         },
         img
     ),
     new Card(
-        "050",
-        "card050",
+        "120",
+        "Tytuł karty",
         {
-            [KONSERWATYZM]: 10,
-            [PRAWICA]: 6,
-            [SOCJALIZM]: 2,
-            [LEWICA]: 7,
-            [LIBERALIZM]: 0,
+            [KONSERWATYZM]: 8,
+            [PRAWICA]: 10,
+            [SOCJALIZM]: 7,
+            [LEWICA]: 0,
+            [LIBERALIZM]: 5,
             [TUMIWISIZM]: 1
         },
         img

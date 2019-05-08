@@ -12,17 +12,17 @@ def generate_card(f, i):
 
     card = (ko, pr, so, le, li, tu)
 
-    a = None
+    card_id = None
     if i < 9:
-        a = "00{}".format(i+1)
+        card_id = "00{}".format(i+1)
     elif i < 99:
-        a = "0{}".format(i+1)
+        card_id = "0{}".format(i+1)
     else:
-        a = "{}".format(i+1)
+        card_id = "{}".format(i+1)
 
     f.write('''    new Card(
         "{}",
-        "card{}",
+        "Tytuł karty",
         {}
             [KONSERWATYZM]: {},
             [PRAWICA]: {},
@@ -32,7 +32,7 @@ def generate_card(f, i):
             [TUMIWISIZM]: {}
         {},
         img
-    ),\n'''.format(a, a, "{", *card, "}"))
+    ),\n'''.format(card_id, "{", *card, "}"))
     return card
 
 
@@ -48,6 +48,6 @@ def generate_deck(cards_q):
 
 
 if __name__ == "__main__":
-    cards_q = 50
+    cards_q = 120
     generate_deck(cards_q)
 

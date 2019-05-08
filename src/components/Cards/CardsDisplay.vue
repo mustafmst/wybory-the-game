@@ -20,7 +20,7 @@ export default {
             cards: [...cardsData],
             cardRows: [...cardsData].reduce((p, c) => {
                 if(index === 0) p.push([]);
-                p[p.length-1].push(c)
+                p[p.length-1].push(c);
                 index++;
                 if(index > 3) index = 0;
                 return p;
