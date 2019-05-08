@@ -26,13 +26,13 @@ export default {
         buttonStyle() {
             return this.areMoreThanOnePlayers
                 ? {
-                      "background-color": "#da0000",
-                      cursor: "pointer"
-                  }
+                    "background-color": "#da0000",
+                    cursor: "pointer"
+                }
                 : {
-                      "background-color": "#9d9d9d",
-                      cursor: "not-allowed"
-                  };
+                    "background-color": "#9d9d9d",
+                    cursor: "not-allowed"
+                };
         }
     },
     methods: {

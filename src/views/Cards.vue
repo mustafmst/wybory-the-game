@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row">
+        <div class="row cards-page-header">
             <h2 class="col-9">Karty do gry</h2>
             <div class="col-md-3">
                 <button class="btn" @click="print">Drukuj Karty</button>
@@ -20,9 +20,14 @@ export default {
     components: {
         CardsDisplay
     },
+    data() {
+        return {
+            output: null
+        };
+    },
     methods: {
         print() {
-            this.$htmlToPaper("to-print");
+            window.print();
         }
     }
 };
@@ -34,4 +39,5 @@ export default {
     color: $black-50;
     float: right;
 }
+
 </style>

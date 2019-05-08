@@ -19,9 +19,11 @@ export default {
 
 <style lang="scss">
 @import "./style/colors.scss";
+
 body {
     margin: 0;
 }
+
 #app {
     font-family: "Lato", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -30,6 +32,17 @@ body {
 
     .page {
         margin-top: 20px;
+    }
+}
+
+@media print {
+    header,
+    .cards-page-header {
+        display: none;
+    }
+
+    .card {
+        height: 480px;
     }
 }
 </style>
