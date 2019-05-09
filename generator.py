@@ -48,6 +48,6 @@ def generate_deck(cards_q):
 
 
 if __name__ == "__main__":
-    cards_q = 120
+    cards_q = 90
     generate_deck(cards_q)
 
