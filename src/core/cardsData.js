@@ -404,7 +404,7 @@ export default [
     ),
     new Card(
         "031",
-        "Tytuł karty",
+        "Taki mamy klimat",
         {
             [KONSERWATYZM]: 3,
             [PRAWICA]: 8,
@@ -417,7 +417,7 @@ export default [
     ),
     new Card(
         "032",
-        "Tytuł karty",
+        "Bardzo się cieszę, że pochodzimy od różnej małpy",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 1,
@@ -430,7 +430,7 @@ export default [
     ),
     new Card(
         "033",
-        "Tytuł karty",
+        "Donald marzy żeby było miło",
         {
             [KONSERWATYZM]: 4,
             [PRAWICA]: 8,
@@ -443,7 +443,7 @@ export default [
     ),
     new Card(
         "034",
-        "Tytuł karty",
+        "Trzeba chronić polską rodzinę",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 7,
@@ -456,7 +456,7 @@ export default [
     ),
     new Card(
         "035",
-        "Tytuł karty",
+        "100 zł na każdy tucznik",
         {
             [KONSERWATYZM]: 9,
             [PRAWICA]: 6,
@@ -469,7 +469,7 @@ export default [
     ),
     new Card(
         "036",
-        "Tytuł karty",
+        "Zmień pracę, weź kredyt",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 7,
@@ -482,7 +482,7 @@ export default [
     ),
     new Card(
         "037",
-        "Tytuł karty",
+        "Jeśli minister finansów jest lubiany to znaczy, że jest zły",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 7,
@@ -495,7 +495,7 @@ export default [
     ),
     new Card(
         "038",
-        "Tytuł karty",
+        "Balcerowicz  musi odejść",
         {
             [KONSERWATYZM]: 0,
             [PRAWICA]: 9,
@@ -508,7 +508,7 @@ export default [
     ),
     new Card(
         "039",
-        "Tytuł karty",
+        "Pensja minimalna na poziomie niemiec",
         {
             [KONSERWATYZM]: 0,
             [PRAWICA]: 2,
@@ -521,7 +521,7 @@ export default [
     ),
     new Card(
         "040",
-        "Tytuł karty",
+        "Jak można zgwałcić prostytutkę?",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 1,
@@ -534,7 +534,7 @@ export default [
     ),
     new Card(
         "041",
-        "Tytuł karty",
+        "Gospodarka oparta ne węglu",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 8,
@@ -547,7 +547,7 @@ export default [
     ),
     new Card(
         "042",
-        "Tytuł karty",
+        "Wolność wyznania, wolność sumienia",
         {
             [KONSERWATYZM]: 5,
             [PRAWICA]: 7,
@@ -560,7 +560,7 @@ export default [
     ),
     new Card(
         "043",
-        "Tytuł karty",
+        "KONSTYTUCJA!!!",
         {
             [KONSERWATYZM]: 4,
             [PRAWICA]: 7,
@@ -573,7 +573,7 @@ export default [
     ),
     new Card(
         "044",
-        "Tytuł karty",
+        "Są plusy dodanie i plusy ujemne",
         {
             [KONSERWATYZM]: 3,
             [PRAWICA]: 8,
@@ -586,7 +586,7 @@ export default [
     ),
     new Card(
         "045",
-        "Tytuł karty",
+        "Znam polskie drogi lepiej niż niejeden kierowca tira",
         {
             [KONSERWATYZM]: 4,
             [PRAWICA]: 8,
@@ -599,7 +599,7 @@ export default [
     ),
     new Card(
         "046",
-        "Tytuł karty",
+        "Wyginiecie jak dinozaury",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 8,
@@ -612,7 +612,7 @@ export default [
     ),
     new Card(
         "047",
-        "Tytuł karty",
+        "Ja nie znam sprawy, nie męczcie mnie",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 5,
@@ -625,7 +625,7 @@ export default [
     ),
     new Card(
         "048",
-        "Tytuł karty",
+        "Gdybym był kobietą to byłbym lepszym premierem",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 3,
@@ -638,7 +638,7 @@ export default [
     ),
     new Card(
         "049",
-        "Tytuł karty",
+        "Marna emerytura z ZUSa lepsza niż nic",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 10,
@@ -651,7 +651,7 @@ export default [
     ),
     new Card(
         "050",
-        "Tytuł karty",
+        "500 zł na każdą krowę",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 10,
@@ -664,7 +664,7 @@ export default [
     ),
     new Card(
         "051",
-        "Tytuł karty",
+        "50 zł na każdą świnkę morską",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 2,
@@ -677,7 +677,7 @@ export default [
     ),
     new Card(
         "052",
-        "Tytuł karty",
+        "LGBT w każdej szkole",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 6,
@@ -690,7 +690,7 @@ export default [
     ),
     new Card(
         "053",
-        "Tytuł karty",
+        "Dopłaty do każdego nieużytku rolnego",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 0,
@@ -703,7 +703,7 @@ export default [
     ),
     new Card(
         "054",
-        "Tytuł karty",
+        "Ja bym chciał żeby pan Boska umył mi plecy",
         {
             [KONSERWATYZM]: 4,
             [PRAWICA]: 3,
@@ -716,7 +716,7 @@ export default [
     ),
     new Card(
         "055",
-        "Tytuł karty",
+        "W 5 sekundzie słychać strzały",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 7,
@@ -729,7 +729,7 @@ export default [
     ),
     new Card(
         "056",
-        "Tytuł karty",
+        "",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 5,
@@ -742,7 +742,7 @@ export default [
     ),
     new Card(
         "057",
-        "Tytuł karty",
+        "Darmowe żłobki dla dzieci matek niepracujących",
         {
             [KONSERWATYZM]: 6,
             [PRAWICA]: 4,
@@ -755,7 +755,7 @@ export default [
     ),
     new Card(
         "058",
-        "Tytuł karty",
+        "Ja jestem gorącym zwolennikiem prawicy, moje serce jest po prawej stronie",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 10,
@@ -768,7 +768,7 @@ export default [
     ),
     new Card(
         "059",
-        "Tytuł karty",
+        "Zwiększeni zasiłku dla bezrobotnych",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 9,
@@ -781,7 +781,7 @@ export default [
     ),
     new Card(
         "060",
-        "Tytuł karty",
+        "Bóg, honor, dopłaty!",
         {
             [KONSERWATYZM]: 9,
             [PRAWICA]: 1,

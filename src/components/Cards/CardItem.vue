@@ -1,13 +1,12 @@
 <template>
     <div class="col-md-3 game-card" style="padding:0;">
         <div class="card">
-            <img :src="card.img" :alt="card.name" class="card-img-top">
             <div class="card-body">
+                <h2 style="float:right;">{{ card.id }}</h2>
                 <h5 class="card-title">{{ card.name }}</h5>
                 <br>
                 <CardImage :chart-data="formattedCardsData" />
                 <br>
-                <p style="float:right;">{{ card.code }}</p>
             </div>
         </div>
     </div>
@@ -57,4 +56,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card {
+    height: 480px;   
+}
+.card-title {
+    position: relative;
+    top: 45px;
+}
 </style>

@@ -53,9 +53,16 @@ $canvas-size: 200px;
     height: $canvas-size !important;
     width: $canvas-size !important;
     margin: auto;
+    position: absolute;
+    bottom: 55px;
+    left: 65px;
 }
 
 @media print {
 
+.card-canvas {
+    bottom: 55px;
+    left: 35px;
+}
 }
 </style>
