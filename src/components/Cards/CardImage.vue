@@ -31,7 +31,26 @@ export default {
                     borderWidth: 1,
                     fill: true,
                     scale: {
-                        display: true
+                        labels: {
+                            color: "#000000"
+                        },
+                        display: true,
+                        pointLabels: {
+                            fontSize: 13,
+                            fontColor: "#000000"
+                        },
+                        gridLines: {
+                            color: "#000000",
+                            lineWidth: 1
+                        },
+                        angleLines: {
+                            color: "#000000",
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            fontColor: "#000000"
+                        }
+
                     },
                     legend: {
                         display: false
@@ -48,14 +67,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$canvas-size: 200px;
+$canvas-size: 205px;
 .card-canvas {
     height: $canvas-size !important;
     width: $canvas-size !important;
     margin: auto;
     position: absolute;
     bottom: 55px;
-    left: 65px;
+    left: 5px;
 }
 
 @media print {
