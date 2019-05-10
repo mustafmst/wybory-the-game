@@ -14,7 +14,7 @@ const img = "https://ocdn.eu/pulscms-transforms/1/ieqktkqTURBXy9jNTJlZTU3MzExY2Q
 export default [
     new Card(
         "001",
-        "Tytuł karty",
+        "Wszyscy będziemy dobrze zarabiać!",
         {
             [KONSERWATYZM]: 5,
             [PRAWICA]: 3,
@@ -27,7 +27,7 @@ export default [
     ),
     new Card(
         "002",
-        "Tytuł karty",
+        "Zbudujemy trzy miliony mieszkań w ciągu roku!",
         {
             [KONSERWATYZM]: 0,
             [PRAWICA]: 4,
@@ -40,7 +40,7 @@ export default [
     ),
     new Card(
         "003",
-        "Tytuł karty",
+        "2000 złotych dla wszystkich obywateli, którzy nas poprą!",
         {
             [KONSERWATYZM]: 6,
             [PRAWICA]: 0,
@@ -53,7 +53,7 @@ export default [
     ),
     new Card(
         "004",
-        "Tytuł karty",
+        "Czy się stoi, czy się leży, 200 zł się należy!",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 2,
@@ -66,7 +66,7 @@ export default [
     ),
     new Card(
         "005",
-        "Tytuł karty",
+        "Gruszki wyrosną na wierzbie. Obiecujemy!",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 10,
@@ -79,7 +79,7 @@ export default [
     ),
     new Card(
         "006",
-        "Tytuł karty",
+        "Damy mieszkania dla młodych małżeństw",
         {
             [KONSERWATYZM]: 6,
             [PRAWICA]: 1,
@@ -92,7 +92,7 @@ export default [
     ),
     new Card(
         "007",
-        "Tytuł karty",
+        "Podatek liniowy",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 4,
@@ -105,7 +105,7 @@ export default [
     ),
     new Card(
         "008",
-        "Tytuł karty",
+        "Obniżymy VAT",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 4,
@@ -118,7 +118,7 @@ export default [
     ),
     new Card(
         "009",
-        "Tytuł karty",
+        "Zlikwidujemy bezrobocie - serio",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 4,
@@ -131,7 +131,7 @@ export default [
     ),
     new Card(
         "010",
-        "Tytuł karty",
+        "Przywróćmy normalność, wygrajmy przyszłość",
         {
             [KONSERWATYZM]: 5,
             [PRAWICA]: 10,
@@ -144,7 +144,7 @@ export default [
     ),
     new Card(
         "011",
-        "Tytuł karty",
+        "No pierwsze, to jak można prostytutkę zgwałcić?",
         {
             [KONSERWATYZM]: 9,
             [PRAWICA]: 8,
@@ -157,7 +157,7 @@ export default [
     ),
     new Card(
         "012",
-        "Tytuł karty",
+        "Dostęp do komputera dla każdego ucznia",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 3,
@@ -170,7 +170,7 @@ export default [
     ),
     new Card(
         "013",
-        "Tytuł karty",
+        "Nikt Ci nie da tyle ile Ja Ci obiecam",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 10,
@@ -183,7 +183,7 @@ export default [
     ),
     new Card(
         "014",
-        "Tytuł karty",
+        "Nie zrobimy koalicji z [wstaw tutaj kogo chcesz]",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 5,
@@ -196,7 +196,7 @@ export default [
     ),
     new Card(
         "015",
-        "Tytuł karty",
+        "Becikowe",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 4,
@@ -209,7 +209,7 @@ export default [
     ),
     new Card(
         "016",
-        "Tytuł karty",
+        "Czyny, nie cuda",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 4,
@@ -222,7 +222,7 @@ export default [
     ),
     new Card(
         "017",
-        "Tytuł karty",
+        "Druga Irlandia",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 3,
@@ -235,7 +235,7 @@ export default [
     ),
     new Card(
         "018",
-        "Tytuł karty",
+        "Zlikwidować senat!",
         {
             [KONSERWATYZM]: 3,
             [PRAWICA]: 1,
@@ -248,7 +248,7 @@ export default [
     ),
     new Card(
         "019",
-        "Tytuł karty",
+        "Zmniejszenie biurokracji",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 7,
@@ -261,7 +261,7 @@ export default [
     ),
     new Card(
         "020",
-        "Tytuł karty",
+        "Wolność, własność, sprawiedliwość",
         {
             [KONSERWATYZM]: 7,
             [PRAWICA]: 6,
@@ -274,7 +274,7 @@ export default [
     ),
     new Card(
         "021",
-        "Tytuł karty",
+        "Nie przyjmiemy żadnych imigrantów",
         {
             [KONSERWATYZM]: 2,
             [PRAWICA]: 3,
@@ -287,7 +287,7 @@ export default [
     ),
     new Card(
         "022",
-        "Tytuł karty",
+        "Milion nowych miejsc pracy",
         {
             [KONSERWATYZM]: 1,
             [PRAWICA]: 4,
@@ -300,7 +300,7 @@ export default [
     ),
     new Card(
         "023",
-        "Tytuł karty",
+        "Chłopak i dziewczyna - Normalna rodzina",
         {
             [KONSERWATYZM]: 10,
             [PRAWICA]: 6,
@@ -313,7 +313,7 @@ export default [
     ),
     new Card(
         "024",
-        "Tytuł karty",
+        "500 zł na każde dziecko",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 2,
@@ -326,7 +326,7 @@ export default [
     ),
     new Card(
         "025",
-        "Tytuł karty",
+        "Trzynasta pensja dla wszystkich!",
         {
             [KONSERWATYZM]: 3,
             [PRAWICA]: 10,
@@ -339,7 +339,7 @@ export default [
     ),
     new Card(
         "026",
-        "Tytuł karty",
+        "Czyste powietrze",
         {
             [KONSERWATYZM]: 4,
             [PRAWICA]: 2,
@@ -352,7 +352,7 @@ export default [
     ),
     new Card(
         "027",
-        "Tytuł karty",
+        "Apteki z \"awaryjną antykoncepcją\"",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 6,
@@ -365,7 +365,7 @@ export default [
     ),
     new Card(
         "028",
-        "Tytuł karty",
+        "50 lat i emeryturka",
         {
             [KONSERWATYZM]: 6,
             [PRAWICA]: 0,
@@ -378,7 +378,7 @@ export default [
     ),
     new Card(
         "029",
-        "Tytuł karty",
+        "Im mniej pieniędzy w budżecie państwa, tym lepiej, bo więcej zostaje w kieszeniach ludzi",
         {
             [KONSERWATYZM]: 8,
             [PRAWICA]: 7,
@@ -391,7 +391,7 @@ export default [
     ),
     new Card(
         "030",
-        "Tytuł karty",
+        "Publiczna służba zdrowia",
         {
             [KONSERWATYZM]: 5,
             [PRAWICA]: 5,
@@ -404,7 +404,7 @@ export default [
     ),
     new Card(
         "031",
-        "Taki mamy klimat",
+        "Paliwo będzie tańsze",
         {
             [KONSERWATYZM]: 3,
             [PRAWICA]: 8,
@@ -495,7 +495,7 @@ export default [
     ),
     new Card(
         "038",
-        "Balcerowicz  musi odejść",
+        "Balcerowicz musi odejść",
         {
             [KONSERWATYZM]: 0,
             [PRAWICA]: 9,
