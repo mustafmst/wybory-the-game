@@ -1,6 +1,7 @@
 <template>
     <div class="about">
-        <h1>Informacje o projekcie</h1>
+        <GameRules />
+        <h2>Informacje o projekcie</h2>
         <p>Gra karciana stworzona jako projekt na studia.</p>
         <p>Autorami projektu są: 
             <ul>
@@ -15,11 +16,13 @@
 
 <script>
 import DependenciesList from "./../components/DependenciesList/List";
+import GameRules from "./../components/GameRules"
 
 export default {
     name: "about",
     components: {
-        DependenciesList
+        DependenciesList,
+        GameRules
     }
 };
 </script>
