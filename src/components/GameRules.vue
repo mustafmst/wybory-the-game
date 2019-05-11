@@ -1,6 +1,6 @@
 <template>
   <div class="container rules">
-    <h2>Istrukcja</h2>
+    <h2>Instrukcja</h2>
     <br>
     <h4>Opis i cel</h4>
     <p>
